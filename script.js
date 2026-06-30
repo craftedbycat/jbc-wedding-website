@@ -1,9 +1,5 @@
-async function init() {
+document.addEventListener("DOMContentLoaded", () => {
+  const app = document.getElementById("app");
 
-    const data = await getGuests();
-
-    console.log(data);
-
-}
-
-init();
+  app.innerHTML = renderHero();
+});

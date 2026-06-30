@@ -1,1 +1,17 @@
-/* JB&C Wedding Website */
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #F8F5EF;
+
+    font-family: "Cormorant Garamond", serif;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #5C5A57;
+}
