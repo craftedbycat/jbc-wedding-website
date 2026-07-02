@@ -103,17 +103,19 @@ body{
 
     position:absolute;
 
-    right:-110px;
+    right:-145px;
 
-    bottom:-40px;
+    bottom:-85px;
 
-    width:190px;
+    width:340px;
 
-    height:250px;
+    height:420px;
 
     background:url("assets/images/tail.png") center/contain no-repeat;
 
     animation:tailSway 4s ease-in-out infinite;
+
+    pointer-events:none;
 
 }
 
@@ -121,15 +123,17 @@ body{
 
     position:absolute;
 
-    width:330px;
+    width:520px;
 
-    top:-120px;
+    top:-205px;
 
     left:50%;
 
     transform:translateX(-50%);
 
     z-index:5;
+
+    pointer-events:none;
 
 }
 
